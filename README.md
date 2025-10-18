@@ -52,13 +52,21 @@ HeyGem-Linux-Python-Hack 是一个基于 Python 的数字人项目，它从 [Hey
 # pip install -r requirements.txt
 ```
 
-### 使用
+### 1.使用
 把项目克隆到本地
 ```bash
 git clone https://github.com/Holasyb918/HeyGem-Linux-Python-Hack
 cd HeyGem-Linux-Python-Hack
 bash download.sh
 ```
+
+### 2. 自己本地 linux 部署：
+创建 python3.8 的 conda 环境: conda create -n heygem python=3.8
+进入 conda 环境: conda activate heygem
+执行 bash install.sh
+install.sh 文件：https://pan.quark.cn/s/918c4a086412
+对应四个req.txt，不要合并到一起装
+
 #### 开始使用  
 * repo 中已提供可以用于 demo 的音视频样例，代码可以直接运行。  
 #### command:  
